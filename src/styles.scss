@@ -7,7 +7,7 @@ $custom-app-primary: mat-palette($mat-pink);
 $custom-app-secundary: mat-palette($mat-cyan, 300, 50, 700);
 $custom-app-warn: mat-palette($mat-red, 400);
 
-$custom-theme: mat-dark-theme($custom-app-primary, $custom-app-secundary, $custom-app-warn);
+$custom-theme: mat-light-theme($custom-app-primary, $custom-app-secundary, $custom-app-warn);
 
 @include angular-material-theme($custom-theme);
 
