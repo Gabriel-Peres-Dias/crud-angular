@@ -13,8 +13,6 @@ export class CursosComponent implements OnInit{
   cursos: Observable<Curso[]>;
   displayedColumns = ['nome', 'categoria'];
 
-
-
   constructor(private cursoService: CursosService) {
     this.cursos = this.cursoService.listar();
   }
